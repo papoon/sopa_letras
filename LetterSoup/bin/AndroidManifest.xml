@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidGames.lettersoup"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.androidGames.lettersoup.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.androidGames.lettersoup.DisplayMenssageActivity"
+            android:label="@string/title_activity_display_menssage"
+            android:parentActivityName="com.androidGames.lettersoup.MenuSoupLettersActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.androidGames.lettersoup.MenuSoupLettersActivity" />
+        </activity>
+        <activity
+            android:name="com.androidGames.lettersoup.MenuSoupLettersActivity"
+            android:label="@string/title_activity_menu_soup_letters" >
+        </activity>
+        <activity
+            android:name="com.androidGames.lettersoup.PlayGameActivity"
+            android:label="@string/title_activity_play_game"
+            android:parentActivityName="com.androidGames.lettersoup.MenuSoupLettersActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.androidGames.lettersoup.MenuSoupLettersActivity" />
+        </activity>
+    </application>
+
+</manifest>

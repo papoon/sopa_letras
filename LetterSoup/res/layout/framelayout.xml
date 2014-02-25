@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#000000" >
+ 
+	<FrameLayout
+		android:id="@+id/viewd"
+		android:layout_width="250dp"
+		android:layout_height="304dp"
+		android:background="#FFFFFF"
+		android:orientation="vertical" >
+	</FrameLayout>
+ 
+</FrameLayout>

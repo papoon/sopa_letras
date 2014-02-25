@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" 
+    android:background="@drawable/ardosia">
+
+    <TextView
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:clickable="true"
+        android:onClick="playGame"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="@string/play_game"
+         android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:clickable="true"
+        android:onClick="about"
+        android:layout_gravity="center"
+        android:text="@string/about"
+         android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:clickable="true"
+        android:onClick="help"
+        android:layout_gravity="center"
+        android:text="@string/help"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
